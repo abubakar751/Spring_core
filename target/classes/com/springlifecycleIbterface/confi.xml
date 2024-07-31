@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	 <bean class="com.springlifecyclexml1.Student" name="stu" init-method="custom"
+	 destroy-method="end">
+	 <property name="id"    value="103"/>
+	 <property name="name"    value="AbuBakar"/>
+	  </bean>
+	 <bean class="com.springlifecyclexml1.ByInterface" name="by">
+	 <property name="id" value="111"/>
+	 <property name="name" value="abuBakar"/>
+
+	</bean>
+</beans>

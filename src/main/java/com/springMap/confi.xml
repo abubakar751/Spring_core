@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.springMap.Student" name="mnp">
+	<property name="name">
+	<list>
+	<value>sasdfs</value>
+	<value>jhgs</value>
+	<value>dsd</value>
+	</list>
+	</property>
+	<property name="courses">
+	<map>
+	<entry key="Java" value="2 Years"/>
+	<entry key="c++" value="1.5 Years"/>
+	<entry key="c" value="1 Year"/>
+	</map>
+	</property>
+	
+	</bean>
+</beans>
